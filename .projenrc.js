@@ -4,7 +4,12 @@ const project = new AwsCdkTypeScriptApp({
   defaultReleaseBranch: 'main',
   name: 'lambda-container-cdk',
 
-  // cdkDependencies: undefined,        /* Which AWS CDK modules (those that start with "@aws-cdk/") this app uses. */
+  cdkDependencies: [
+    "@aws-cdk/core",
+    "@aws-cdk/aws-lambda",
+    "@aws-cdk/aws-apigateway"
+  ],
+
   // deps: [],                          /* Runtime dependencies of this module. */
   // description: undefined,            /* The description is just a string that helps people understand the purpose of the package. */
   // devDeps: [],                       /* Build dependencies for this module. */

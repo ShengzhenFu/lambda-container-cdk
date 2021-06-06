@@ -12,6 +12,325 @@
     "@aws-cdk/cx-api" "1.107.0"
     constructs "^3.3.69"
 
+"@aws-cdk/assets@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/assets/download/@aws-cdk/assets-1.107.0.tgz#e03c39bb4031f418fcae8025b6a770c812cebfd1"
+  integrity sha1-4Dw5u0Ax9Bj8roAltqdwyBLOv9E=
+  dependencies:
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-apigateway@^1.95.2":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-apigateway/download/@aws-cdk/aws-apigateway-1.107.0.tgz#90a6b6732b6c0a1f5c9b217a413bba5a6f2af3c8"
+  integrity sha1-kKa2cytsCh9cmyF6QTu6Wm8q88g=
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.107.0"
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-cognito" "1.107.0"
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-elasticloadbalancingv2" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/aws-logs" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/aws-s3-assets" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-applicationautoscaling@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-applicationautoscaling/download/@aws-cdk/aws-applicationautoscaling-1.107.0.tgz#fbce53a2e7258d7ffc9c57bef6913b6efbd54195"
+  integrity sha1-+85ToucljX/8nFe+9pE7bvvVQZU=
+  dependencies:
+    "@aws-cdk/aws-autoscaling-common" "1.107.0"
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-autoscaling-common@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-autoscaling-common/download/@aws-cdk/aws-autoscaling-common-1.107.0.tgz#86cfa6b6a144fd72a85b92f6784200964be60245"
+  integrity sha1-hs+mtqFE/XKoW5L2eEIAlkvmAkU=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-certificatemanager@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-certificatemanager/download/@aws-cdk/aws-certificatemanager-1.107.0.tgz#442e87afcecfc382d86ec99d7760743ccc26aa6f"
+  integrity sha1-RC6Hr87Pw4LYbsmdd2B0PMwmqm8=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/aws-route53" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-cloudformation@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-cloudformation/download/@aws-cdk/aws-cloudformation-1.107.0.tgz#50e7b960d9f03def9806cea8f2d268c5e5ebcd2e"
+  integrity sha1-UOe5YNnwPe+YBs6o8tJoxeXrzS4=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/aws-sns" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-cloudwatch@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-cloudwatch/download/@aws-cdk/aws-cloudwatch-1.107.0.tgz#c75addf146edca6d01a74c839de19b6b08dc5e1f"
+  integrity sha1-x1rd8Ubtym0Bp0yDneGbawjcXh8=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-codeguruprofiler@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-codeguruprofiler/download/@aws-cdk/aws-codeguruprofiler-1.107.0.tgz#dcd787e262d4c1c0d05b52b70152d9912140a7d8"
+  integrity sha1-3NeH4mLUwcDQW1K3AVLZkSFAp9g=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-cognito@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-cognito/download/@aws-cdk/aws-cognito-1.107.0.tgz#1167724298e4fdff2c78627b71dc9e6e054967c0"
+  integrity sha1-EWdyQpjk/f8seGJ7cdyebgVJZ8A=
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/custom-resources" "1.107.0"
+    constructs "^3.3.69"
+    punycode "^2.1.1"
+
+"@aws-cdk/aws-ec2@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-ec2/download/@aws-cdk/aws-ec2-1.107.0.tgz#c91f4b7db381a5231c2666a80bc59f48c199fba9"
+  integrity sha1-yR9LfbOBpSMcJmaoC8WfSMGZ+6k=
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/aws-logs" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/aws-s3-assets" "1.107.0"
+    "@aws-cdk/aws-ssm" "1.107.0"
+    "@aws-cdk/cloud-assembly-schema" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    "@aws-cdk/region-info" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-ecr-assets@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-ecr-assets/download/@aws-cdk/aws-ecr-assets-1.107.0.tgz#0da7ad084fd9ee3d15a696c56d0c106f35d3927b"
+  integrity sha1-DaetCE/Z7j0VppbFbQwQbzXTkns=
+  dependencies:
+    "@aws-cdk/assets" "1.107.0"
+    "@aws-cdk/aws-ecr" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+    minimatch "^3.0.4"
+
+"@aws-cdk/aws-ecr@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-ecr/download/@aws-cdk/aws-ecr-1.107.0.tgz#ada442655fef77106c25e7d7fb14aabea87fbe39"
+  integrity sha1-raRCZV/vdxBsJefX+xSqvqh/vjk=
+  dependencies:
+    "@aws-cdk/aws-events" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-efs@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-efs/download/@aws-cdk/aws-efs-1.107.0.tgz#d484ef7867174b948fab5758076c45dc4647a67a"
+  integrity sha1-1ITveGcXS5SPq1dYB2xF3EZHpno=
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/cloud-assembly-schema" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-elasticloadbalancingv2@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-elasticloadbalancingv2/download/@aws-cdk/aws-elasticloadbalancingv2-1.107.0.tgz#4a827ca33720e0662a249635f1d654b33e77d76c"
+  integrity sha1-SoJ8ozcg4GYqJJY18dZUsz5312w=
+  dependencies:
+    "@aws-cdk/aws-certificatemanager" "1.107.0"
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/cloud-assembly-schema" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    "@aws-cdk/region-info" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-events@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-events/download/@aws-cdk/aws-events-1.107.0.tgz#a3437d292d793ff9b638b009a3b7bcd35c1b6925"
+  integrity sha1-o0N9KS15P/m2OLAJo7e801wbaSU=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-iam@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-iam/download/@aws-cdk/aws-iam-1.107.0.tgz#7ab84fb9ab133599aaaa6f041009d4177b1c55b0"
+  integrity sha1-erhPuasTNZmqqm8EEAnUF3scVbA=
+  dependencies:
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/region-info" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-kms@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-kms/download/@aws-cdk/aws-kms-1.107.0.tgz#cbb02df718a59bbf8ecba2dbbf60b00e6d09404f"
+  integrity sha1-y7At9xilm7+Oy6Lbv2CwDm0JQE8=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-lambda@1.107.0", "@aws-cdk/aws-lambda@^1.95.2":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-lambda/download/@aws-cdk/aws-lambda-1.107.0.tgz#6264d932a4fbec04fbd9ddcbdb7ee80dc4c554dc"
+  integrity sha1-YmTZMqT77AT72d3L237oDcTFVNw=
+  dependencies:
+    "@aws-cdk/aws-applicationautoscaling" "1.107.0"
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-codeguruprofiler" "1.107.0"
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-ecr" "1.107.0"
+    "@aws-cdk/aws-ecr-assets" "1.107.0"
+    "@aws-cdk/aws-efs" "1.107.0"
+    "@aws-cdk/aws-events" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/aws-logs" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/aws-s3-assets" "1.107.0"
+    "@aws-cdk/aws-signer" "1.107.0"
+    "@aws-cdk/aws-sqs" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-logs@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-logs/download/@aws-cdk/aws-logs-1.107.0.tgz#5a1dd9b2f7a4de9e360c5727eb445ac2dd40bab4"
+  integrity sha1-Wh3Zsvek3p42DFcn60Rawt1AurQ=
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/aws-s3-assets" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-route53@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-route53/download/@aws-cdk/aws-route53-1.107.0.tgz#8bb861f1f956111ac6e208f1e3fa2c8bb297b1f2"
+  integrity sha1-i7hh8flWERrG4gjx4/osi7KXsfI=
+  dependencies:
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-logs" "1.107.0"
+    "@aws-cdk/cloud-assembly-schema" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/custom-resources" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-s3-assets@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-s3-assets/download/@aws-cdk/aws-s3-assets-1.107.0.tgz#fec10793c65ec077c4451837a309ddcf3f9d5c25"
+  integrity sha1-/sEHk8ZewHfERRg3owndzz+dXCU=
+  dependencies:
+    "@aws-cdk/assets" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/aws-s3" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-s3@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-s3/download/@aws-cdk/aws-s3-1.107.0.tgz#54914b5171d44f9f70fed764195bce735ac22b36"
+  integrity sha1-VJFLUXHUT59w/tdkGVvOc1rCKzY=
+  dependencies:
+    "@aws-cdk/aws-events" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    "@aws-cdk/cx-api" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-signer@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-signer/download/@aws-cdk/aws-signer-1.107.0.tgz#46bb82726307d528f4d98d7e6b93f179bec9ac16"
+  integrity sha1-RruCcmMH1Sj02Y1+a5Pxeb7JrBY=
+  dependencies:
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-sns@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-sns/download/@aws-cdk/aws-sns-1.107.0.tgz#524851b4e3351a2984d76d83d1420eb0247ec2e8"
+  integrity sha1-UkhRtOM1GimE122D0UIOsCR+wug=
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-events" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/aws-sqs" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-sqs@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-sqs/download/@aws-cdk/aws-sqs-1.107.0.tgz#24419abffbae28c23f2ec899b052343929ec6fc0"
+  integrity sha1-JEGav/uuKMI/LsiZsFI0OSnsb8A=
+  dependencies:
+    "@aws-cdk/aws-cloudwatch" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
+"@aws-cdk/aws-ssm@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/aws-ssm/download/@aws-cdk/aws-ssm-1.107.0.tgz#211e7c4107fe63dff90c36a5f953686ed5a7b193"
+  integrity sha1-IR58QQf+Y9/5DDal+VNobtWnsZM=
+  dependencies:
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-kms" "1.107.0"
+    "@aws-cdk/cloud-assembly-schema" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
+
 "@aws-cdk/cfnspec@1.107.0":
   version "1.107.0"
   resolved "https://registry.nlark.com/@aws-cdk/cfnspec/download/@aws-cdk/cfnspec-1.107.0.tgz#f65982733bd791cf120ee15796e90ec4d6e6edf2"
@@ -53,6 +372,20 @@
     fs-extra "^9.1.0"
     ignore "^5.1.8"
     minimatch "^3.0.4"
+
+"@aws-cdk/custom-resources@1.107.0":
+  version "1.107.0"
+  resolved "https://registry.nlark.com/@aws-cdk/custom-resources/download/@aws-cdk/custom-resources-1.107.0.tgz#6a8d500696d6521761b5e07bd06510f03c8e1a86"
+  integrity sha1-ao1QBpbWUhdhteB70GUQ8DyOGoY=
+  dependencies:
+    "@aws-cdk/aws-cloudformation" "1.107.0"
+    "@aws-cdk/aws-ec2" "1.107.0"
+    "@aws-cdk/aws-iam" "1.107.0"
+    "@aws-cdk/aws-lambda" "1.107.0"
+    "@aws-cdk/aws-logs" "1.107.0"
+    "@aws-cdk/aws-sns" "1.107.0"
+    "@aws-cdk/core" "1.107.0"
+    constructs "^3.3.69"
 
 "@aws-cdk/cx-api@1.107.0":
   version "1.107.0"
@@ -780,7 +1113,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@*":
+"@types/jest@^26.0.23":
   version "26.0.23"
   resolved "https://registry.nlark.com/@types/jest/download/@types/jest-26.0.23.tgz#a1b7eab3c503b80451d019efb588ec63522ee4e7"
   integrity sha1-obfqs8UDuARR0BnvtYjsY1Iu5Oc=
@@ -837,7 +1170,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@*":
+"@typescript-eslint/eslint-plugin@^4.26.0":
   version "4.26.0"
   resolved "https://registry.nlark.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.26.0.tgz#12bbd6ebd5e7fabd32e48e1e60efa1f3554a3242"
   integrity sha1-ErvW69Xn+r0y5I4eYO+h81VKMkI=
@@ -863,7 +1196,7 @@
     eslint-scope "^5.1.1"
     eslint-utils "^3.0.0"
 
-"@typescript-eslint/parser@*":
+"@typescript-eslint/parser@^4.26.0":
   version "4.26.0"
   resolved "https://registry.nlark.com/@typescript-eslint/parser/download/@typescript-eslint/parser-4.26.0.tgz#31b6b732c9454f757b020dab9b6754112aa5eeaf"
   integrity sha1-Mba3MslFT3V7Ag2rm2dUESql7q8=
@@ -2127,7 +2460,7 @@ escodegen@^2.0.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-import-resolver-node@*, eslint-import-resolver-node@^0.3.4:
+eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
   resolved "https://registry.npm.taobao.org/eslint-import-resolver-node/download/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
   integrity sha1-hf+oGULCUBLYIxCW3fZ5wDBCxxc=
@@ -2135,7 +2468,7 @@ eslint-import-resolver-node@*, eslint-import-resolver-node@^0.3.4:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@*:
+eslint-import-resolver-typescript@^2.4.0:
   version "2.4.0"
   resolved "https://registry.npm.taobao.org/eslint-import-resolver-typescript/download/eslint-import-resolver-typescript-2.4.0.tgz#ec1e7063ebe807f0362a7320543aaed6fe1100e1"
   integrity sha1-7B5wY+voB/A2KnMgVDqu1v4RAOE=
@@ -2154,7 +2487,7 @@ eslint-module-utils@^2.6.1:
     debug "^3.2.7"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@*:
+eslint-plugin-import@^2.23.4:
   version "2.23.4"
   resolved "https://registry.nlark.com/eslint-plugin-import/download/eslint-plugin-import-2.23.4.tgz#8dceb1ed6b73e46e50ec9a5bb2411b645e7d3d97"
   integrity sha1-jc6x7Wtz5G5Q7JpbskEbZF59PZc=
@@ -2207,7 +2540,7 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.nlark.com/eslint-visitor-keys/download/eslint-visitor-keys-2.1.0.tgz#f65328259305927392c938ed44eb0a5c9b2bd303"
   integrity sha1-9lMoJZMFknOSyTjtROsKXJsr0wM=
 
-eslint@*:
+eslint@^7.28.0:
   version "7.28.0"
   resolved "https://registry.nlark.com/eslint/download/eslint-7.28.0.tgz?cache=0&sync_timestamp=1622846458936&other_urls=https%3A%2F%2Fregistry.nlark.com%2Feslint%2Fdownload%2Feslint-7.28.0.tgz#435aa17a0b82c13bb2be9d51408b617e49c1e820"
   integrity sha1-Q1qheguCwTuyvp1RQIthfknB6CA=
@@ -3634,7 +3967,7 @@ jest-worker@^27.0.2:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@*:
+jest@^27.0.4:
   version "27.0.4"
   resolved "https://registry.nlark.com/jest/download/jest-27.0.4.tgz?cache=0&sync_timestamp=1622709000600&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest%2Fdownload%2Fjest-27.0.4.tgz#91d4d564b36bcf93b98dac1ab19f07089e670f53"
   integrity sha1-kdTVZLNrz5O5jawasZ8HCJ5nD1M=
@@ -3765,15 +4098,15 @@ json-schema-traverse@^1.0.0:
   resolved "https://registry.nlark.com/json-schema-traverse/download/json-schema-traverse-1.0.0.tgz#ae7bcb3656ab77a73ba5c49bf654f38e6b6860e2"
   integrity sha1-rnvLNlard6c7pcSb9lTzjmtoYOI=
 
-json-schema@*:
-  version "0.3.0"
-  resolved "https://registry.npm.taobao.org/json-schema/download/json-schema-0.3.0.tgz?cache=0&sync_timestamp=1609553637722&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson-schema%2Fdownload%2Fjson-schema-0.3.0.tgz#90a9c5054bd065422c00241851ce8d59475b701b"
-  integrity sha1-kKnFBUvQZUIsACQYUc6NWUdbcBs=
-
 json-schema@0.2.3:
   version "0.2.3"
   resolved "https://registry.npm.taobao.org/json-schema/download/json-schema-0.2.3.tgz?cache=0&sync_timestamp=1609553637722&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson-schema%2Fdownload%2Fjson-schema-0.2.3.tgz#b480c892e59a2f05954ce727bd3f2a4e882f9e13"
   integrity sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+
+json-schema@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.npm.taobao.org/json-schema/download/json-schema-0.3.0.tgz?cache=0&sync_timestamp=1609553637722&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fjson-schema%2Fdownload%2Fjson-schema-0.3.0.tgz#90a9c5054bd065422c00241851ce8d59475b701b"
+  integrity sha1-kKnFBUvQZUIsACQYUc6NWUdbcBs=
 
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
@@ -5672,7 +6005,7 @@ tr46@^2.0.2:
   dependencies:
     punycode "^2.1.1"
 
-ts-jest@*:
+ts-jest@^27.0.2:
   version "27.0.2"
   resolved "https://registry.nlark.com/ts-jest/download/ts-jest-27.0.2.tgz?cache=0&sync_timestamp=1622436648203&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fts-jest%2Fdownload%2Fts-jest-27.0.2.tgz#acc1525d5fd25c107c777c3b80a11365db579aa1"
   integrity sha1-rMFSXV/SXBB8d3w7gKETZdtXmqE=
@@ -5775,7 +6108,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@*:
+typescript@^4.3.2:
   version "4.3.2"
   resolved "https://registry.nlark.com/typescript/download/typescript-4.3.2.tgz?cache=0&sync_timestamp=1622878632497&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftypescript%2Fdownload%2Ftypescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
   integrity sha1-OZqxiqxFgC1vJJjeUFT8u+cWqAU=
