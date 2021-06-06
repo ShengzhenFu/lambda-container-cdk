@@ -3,6 +3,7 @@ import * as lambda from "@aws-cdk/aws-lambda";
 import { LambdaRestApi } from "@aws-cdk/aws-apigateway";
 import * as path from 'path';
 
+
 export class MyStack extends Stack {
   constructor(scope: Construct, id: string, props: StackProps = {}) {
     super(scope, id, props);
@@ -13,13 +14,17 @@ export class MyStack extends Stack {
         KEY1: "VALUE1"
       }
     });
-    const apigw = new LambdaRestApi(this, 'hello-Lambda-apigw', { 
+    new LambdaRestApi(this, 'hello-Lambda-apigw', { 
       handler,
       restApiName: 'hello-Lambda-apigw',
-      deploy: false
-     })
-     
-    const deployment = new apigw.deploymentStage(this, 'cdk-deployment', { apigw })
+      deploy: true,
+      deployOptions: {
+        stageName: 'beta',
+        description: 'cdk-deployment',
+        
+      }
+     });
+  
   }
 }
 
